@@ -7,6 +7,8 @@ const Home = ({ navigation }) => {
         <View>
             <Text>Meu curriculo </Text>
 
+            <Image source={require('../imagens/download.jpeg')} style={{ width: 200, height: 200 }} />
+
             <Button
                 title="Sobre"
                 onPress={() => navigation.navigate('Sobre')}
